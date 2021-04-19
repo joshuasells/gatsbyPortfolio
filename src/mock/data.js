@@ -17,11 +17,15 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'professionalPhoto.jpg',
+  paragraphOne: 'I am an aspiring JavaScript Developer. I am a husband and father. I love programming and building new things. ' +
+  'My goal is to create an application someday that will drastically help the normal person become more organized, habitual, and happy!',
+  paragraphTwo: 'When I graduated high school in 2015, I didn' + "'" + 't know what I wanted to do with my life. I was detail oriented, systems driven, and loved to build things. ' +
+  'The problem was that I was never exposed to the concept of programming. Because of this, I was unsure about my dream occupation for a few years. ' +
+  'After getting married and starting a family, I started pursuing a degree in Computer Science at the University of Concordia, St. Paul.',
+  paragraphThree: 'It has been a crazy past few years of learning computer science, raising my family, and working full time. I am set to graduate in August 2021 and am currently looking for job opportunities! ' +
+  'Please feel free to check out my site and reach out for a chat!',
+  resume: 'https://drive.google.com/file/d/1P2dN50VHwPntq2vYhJuqbOcjHH_TsYxo/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -59,36 +63,36 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'joshuataylorsells@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/joshuasells/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/jsells18',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
