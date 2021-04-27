@@ -8,8 +8,12 @@
   color: $white-color;
   height: 100%;
   border-top: 0px;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  // THE NEXT 4 LINES ARE EDITS BY JOSHUA SELLS. TO PUT BACK TO NORMAL,
+  // UNCOMMENT THE NEXT TWO AND DELETE THE LAST 2 LINES.
+  // -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  // clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  -webkit-clip-path: none;
+    clip-path: none;
   padding-bottom: 10%;
 
   @include respond(tab-land) {
