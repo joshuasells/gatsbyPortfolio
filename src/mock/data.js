@@ -25,7 +25,7 @@ export const aboutData = {
   'After getting married and starting a family, I started pursuing a degree in Computer Science at the University of Concordia, St. Paul.',
   paragraphThree: 'It has been a crazy past few years of learning computer science, raising my family, and working full time. I am set to graduate in August 2021 and am currently looking for job opportunities! ' +
   'Please feel free to check out my site and reach out for a chat!',
-  resume: 'https://drive.google.com/file/d/1P2dN50VHwPntq2vYhJuqbOcjHH_TsYxo/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://resume.io/r/t4duZlh4C', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
