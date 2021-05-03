@@ -23,8 +23,8 @@ export const aboutData = {
   paragraphTwo: 'When I graduated high school in 2015, I didn' + "'" + 't know what I wanted to do with my life. I was detail oriented, systems driven, and loved to build things. ' +
   'The problem was that I was never exposed to the concept of programming. Because of this, I was unsure about my dream occupation for a few years. ' +
   'After getting married and starting a family, I started pursuing a degree in Computer Science at the University of Concordia, St. Paul.',
-  paragraphThree: 'It has been a crazy past few years of learning computer science, raising my family, and working full time. I am set to graduate in August 2021 and am currently looking for job opportunities! ' +
-  'Please feel free to check out my site and reach out for a chat!',
+  paragraphThree: 'It has been a crazy past few years of school, family, and work. I am set to graduate in August 2021 and am currently looking for job opportunities! ' +
+  'Please feel free to check out my resume or reach out!',
   resume: 'https://resume.io/r/t4duZlh4C', // if no resume, the button will not show up
 };
 
