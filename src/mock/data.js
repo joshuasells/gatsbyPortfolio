@@ -18,8 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'professionalPhoto.jpg',
-  paragraphOne: 'I am an aspiring JavaScript Developer. I am a husband and father. I love programming and building new things. ' +
-  'My goal is to create an application someday that will drastically help the normal person become more organized, habitual, and happy!',
+  paragraphOne: 'I am a JavaScript Developer. I am a husband and father. I love programming and building new things. ' +
+  'My goal is to create an application someday that will drastically help the normal person become more organized, habitual, and happy.',
   paragraphTwo: 'When I graduated high school in 2015, I didn' + "'" + 't know what I wanted to do with my life. I was detail oriented, systems driven, and loved to build things. ' +
   'The problem was that I was never exposed to the concept of programming. Because of this, I was unsure about my dream occupation for a few years. ' +
   'After getting married and starting a family, I started pursuing a degree in Computer Science at the University of Concordia, St. Paul.',
@@ -30,33 +30,33 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
